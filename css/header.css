@@ -40,7 +40,6 @@ header ul.dropdown-menu {
   }
 }
 
-/*  */
 .dropdown-submenu {
   position: relative;
 }
@@ -54,5 +53,3 @@ header ul.dropdown-menu {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
-
-/*  */
