@@ -17,6 +17,10 @@ section.hero-section img.curved-arrow {
   width: 20px;
 }
 
+section.hero-section .sp-btn {
+  align-items: center;
+}
+
 section.hero-section img.yt-icon {
   width: 70px;
   top: 60px;
@@ -144,81 +148,6 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
   margin-right: auto;
 }
 
-footer a.logo-block {
-  max-width: 60px;
-}
-
-footer .contact-block a.number {
-  color: #07c4e4;
-  font-size: 18px;
-}
-footer .contact-block a.number:hover {
-  color: #ffffff;
-  transition: all 0.25s ease;
-}
-footer .contact-block a.email {
-  color: #ffffff;
-  font-size: 18px;
-}
-footer .contact-block a.email:hover {
-  color: #07c4e4;
-  transition: all 0.25s ease;
-}
-
-footer ul.social-media-icons-block li i {
-  color: #ffffff;
-}
-footer ul.social-media-icons-block li:hover i {
-  color: #07c4e4;
-  transition: all 0.25s ease;
-}
-
-footer .policy-block a {
-  color: #ffffff;
-  font-size: 12px;
-}
-footer .policy-block a:hover {
-  color: #07c4e4;
-  transition: all 0.25s ease;
-}
-
-footer p.copyright {
-  max-width: 200px;
-  font-size: 13px;
-}
-
-footer .accordion-header {
-  background-color: #222222;
-}
-
-footer .accordion-header button.accordion-button {
-  background-color: #222222;
-  color: #ffffff;
-  font-size: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-footer .accordion-header button.accordion-button::after {
-  display: none;
-}
-
-footer .accordion-body {
-  background: #000000;
-}
-
-footer .right-block a {
-  display: block;
-  color: #c5c5c5;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
-footer .right-block a:hover {
-  color: #07c4e4;
-  transition: all 0.25s ease;
-}
-
 @media (max-width: 1599px) {
   section.recruiter-top-company-section .absolute-img {
     display: none;
@@ -272,10 +201,22 @@ footer .right-block a:hover {
   }
 }
 
+@media (max-width: 575px) {
+  section.hero-section .sp-btn {
+    width: 100%;
+    align-items: normal;
+  }
+}
+
 @media (max-width: 500px) {
   section.hero-section .yt-video a figure {
-    max-width: 350px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  section.hero-section img.yt-icon {
+    width: 50px;
+    left: -25px;
   }
 }

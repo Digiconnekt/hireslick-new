@@ -41,10 +41,3 @@ header ul.dropdown-menu {
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
 }
-
-@media (min-width: 1399px) {
-  header .container-fluid {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
