@@ -1,0 +1,41 @@
+header {
+  background-color: #07c4e4;
+}
+
+header .container-fluid {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+header a.navbar-brand {
+  max-width: 55px;
+}
+
+header .menu-hover-border {
+  width: 0%;
+  height: 1px;
+  background-color: #000000;
+}
+
+header li.nav-item:hover .menu-hover-border {
+  width: 100%;
+  transition: all 0.25s ease;
+}
+
+header a.nav-link {
+  color: #000000 !important;
+  font-weight: 500 !important;
+}
+
+header ul.dropdown-menu {
+  border: 0px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px #cdcdcd;
+}
+
+@media (max-width: 1399px) {
+  header .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}

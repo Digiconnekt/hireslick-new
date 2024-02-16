@@ -1,0 +1,281 @@
+section.hero-section {
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+
+section.hero-section h1.hero-heading {
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 35px;
+}
+
+section.hero-section ul li {
+  font-size: 17px;
+}
+
+section.hero-section img.curved-arrow {
+  width: 20px;
+}
+
+section.hero-section img.yt-icon {
+  width: 70px;
+  top: 60px;
+  left: -35px;
+  z-index: 99;
+}
+
+section.hero-section .yt-video a:hover img.yt-icon {
+  transform: scale(1.1);
+  transition: all 0.35s ease;
+}
+
+section.hero-section .yt-video img.banner-paperduck {
+  bottom: 0px;
+  right: 0px;
+  max-width: 120px;
+}
+
+section.hero-section .yt-video img.banner-right-paperplane {
+  top: -80px;
+  right: 60px;
+  max-width: 120px;
+}
+
+section.hero-section .yt-video img.banner-left-paperplane {
+  top: -60px;
+  left: -100px;
+  max-width: 120px;
+}
+
+section.recruiter-top-company-section h2.heading {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+}
+
+section.recruiter-top-company-section .recruiter-top-company-card {
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  text-align: center;
+}
+
+section.recruiter-top-company-section .hire-pattern {
+  top: 80px;
+  left: -160px;
+}
+
+section.digital-skills-section h2.heading {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 40px;
+}
+
+section.digital-skills-section ul.main-tabs {
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dcdcdc;
+  border-radius: 30px;
+}
+
+section.digital-skills-section ul.main-tabs a {
+  width: 120px;
+  text-align: center;
+  border-radius: 30px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+section.digital-skills-section ul.main-tabs a.active {
+  font-weight: bold;
+  background-color: #07c4e4;
+  color: #ffffff;
+}
+
+section.digital-skills-section .content-level-1 ul {
+  border: 0px;
+}
+
+section.digital-skills-section .content-level-1 ul a {
+  border: 0px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #222222;
+}
+section.digital-skills-section .content-level-1 ul a:hover,
+section.digital-skills-section .content-level-1 ul a.active {
+  font-weight: bold;
+  color: #07c4e4;
+  text-decoration: underline;
+  transition: all 0.25s ease;
+}
+
+section.digital-skills-section .skill-card {
+  box-shadow: 0px 0px 3px #d6d6d6;
+  border-radius: 15px;
+}
+
+section.digital-skills-section .skill-card p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+section.our-resources-section .our-resources-card .bottom p,
+section.our-resources-section .our-resources-card .bottom span {
+  font-size: 12px;
+  color: #c5c5c5;
+}
+
+section.choose-how-interact-section .choose-how-interact-card img {
+  max-width: 300px;
+}
+
+section.choose-how-interact-section .choose-how-interact-card img.interact_two {
+  margin-top: 14px;
+}
+
+section.choose-how-interact-section .choose-how-interact-card p.text-content {
+  font-size: 18px;
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a.logo-block {
+  max-width: 60px;
+}
+
+footer .contact-block a.number {
+  color: #07c4e4;
+  font-size: 18px;
+}
+footer .contact-block a.number:hover {
+  color: #ffffff;
+  transition: all 0.25s ease;
+}
+footer .contact-block a.email {
+  color: #ffffff;
+  font-size: 18px;
+}
+footer .contact-block a.email:hover {
+  color: #07c4e4;
+  transition: all 0.25s ease;
+}
+
+footer ul.social-media-icons-block li i {
+  color: #ffffff;
+}
+footer ul.social-media-icons-block li:hover i {
+  color: #07c4e4;
+  transition: all 0.25s ease;
+}
+
+footer .policy-block a {
+  color: #ffffff;
+  font-size: 12px;
+}
+footer .policy-block a:hover {
+  color: #07c4e4;
+  transition: all 0.25s ease;
+}
+
+footer p.copyright {
+  max-width: 200px;
+  font-size: 13px;
+}
+
+footer .accordion-header {
+  background-color: #222222;
+}
+
+footer .accordion-header button.accordion-button {
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .accordion-header button.accordion-button::after {
+  display: none;
+}
+
+footer .accordion-body {
+  background: #000000;
+}
+
+footer .right-block a {
+  display: block;
+  color: #c5c5c5;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+footer .right-block a:hover {
+  color: #07c4e4;
+  transition: all 0.25s ease;
+}
+
+@media (max-width: 1599px) {
+  section.recruiter-top-company-section .absolute-img {
+    display: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  section.hero-section .yt-video img.banner-right-paperplane {
+    top: -80px;
+    right: -20px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 1199px) {
+  section.hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  section.hero-section .yt-video img.banner-right-paperplane {
+    top: -80px;
+    right: 0px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  section.hero-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.hero-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  section.hero-section h1.hero-heading {
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 650px) {
+  section.hero-section .yt-video a figure {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  section.hero-section .yt-video a figure {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
