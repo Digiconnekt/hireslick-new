@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hireslick</title>
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONTAWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="./css/global.css" />
+
+    <!-- HEADER CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
+
+    <!-- FOOTER CSS -->
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- HOW IT WORKS PAGE CSS -->
+    <link rel="stylesheet" href="./css/how-it-works.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <nav class="navbar navbar-expand-xl bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              src="./images/logo-black.png"
+              alt="Hireslick"
+              class="img-fluid"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar1"
+          >
+            <i class="fas fa-bars fs-4"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown me-3">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Why Hireslick</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">About Us</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./vetting-process.html"
+                      >Vetting Process</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./how-it-works.html"
+                      >How It Works</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Hire Top Talent</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      class="dropdown-item dropdown-toggle"
+                      >Digital Marketers</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      class="dropdown-item dropdown-toggle"
+                      >Web Developers</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Resources</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      class="dropdown-item dropdown-toggle"
+                      >For Hiring Managers</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">SEO Specialist</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      class="dropdown-item dropdown-toggle"
+                      >For Indian Talents</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">React Developer</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Contact</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Contact</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#">Careers</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn-c-secondary ms-xl-5 me-xl-3 my-2 my-xl-0 d-block"
+              >Hire a Talent</a
+            >
+            <a href="#" class="btn btn-c-secondary-outline d-block"
+              >Apply as a Talent</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HERO SECTION START -->
+    <section class="hero-section container-fluid bg-c-primary">
+      <div class="container text-center">
+        <h1 class="hero-heading color-c-secondary mb-4">How It works?</h1>
+        <p class="fs-5 secondary-heading">
+          Right Matchmaking is at the core of everything that Uplers does,
+          hence, we put in a great deal of time and effort to ensure that the
+          first shortlisted talent matches your requirements.
+        </p>
+      </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="container-fluid bg-c-secondary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <a href="/" class="d-block logo-block mb-3">
+              <img
+                src="./images/logo-white.png"
+                alt="Hireslick"
+                class="img-fluid"
+              />
+            </a>
+            <img
+              src="./images/home/footer-map.svg"
+              alt="map"
+              class="img-fluid"
+            />
+
+            <div class="mt-4 d-flex align-items-center contact-block">
+              <a href="#" class="text-decoration-none number"
+                >+44 770 015 3708</a
+              >
+              <span class="color-c-primary mx-3">|</span>
+
+              <a href="#" class="text-decoration-none email"
+                >hello@hireslick.com</a
+              >
+            </div>
+
+            <ul
+              class="social-media-icons-block list-unstyled d-flex align-items-center mt-2"
+            >
+              <li class="me-3">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+
+            <div class="mt-2 d-flex align-items-center policy-block">
+              <a href="#" class="text-decoration-none">Privacy Policy</a>
+              <span class="text-white mx-2">|</span>
+
+              <a href="#" class="text-decoration-none">ISMS Policy</a>
+            </div>
+
+            <p class="mb-0 text-secondary copyright mt-2">
+              &copy; 2024 Hireslick Private Limited. All rights reserved.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 mt-lg-0 right-block">
+            <div class="row">
+              <div class="col-12">
+                <div class="accordion accordion-flush" id="accordionFooterOne">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="accordionFooterOne-1">
+                      <button
+                        class="accordion-button collapsed d-flex justify-content-between"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#accordionFooterOne-collapse-1"
+                        aria-expanded="false"
+                        aria-controls="accordionFooterOne-collapse-1"
+                      >
+                        Hire India's Top Tech Talent
+                        <i class="fas fa-chevron-down text-white"></i>
+                      </button>
+                    </h2>
+                    <div
+                      id="accordionFooterOne-collapse-1"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="accordionFooterOne-1"
+                      data-bs-parent="#accordionFooterOne"
+                    >
+                      <div class="accordion-body px-0">
+                        <div class="row">
+                          <div class="col-12 col-sm-6">
+                            <p class="text-white fs-5">Web Developers</p>
+                            <ul class="list-unstyled">
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >About Us</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >Vetting Process</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >How It Works</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-12 col-sm-6">
+                            <p class="text-white fs-5">Software Developers</p>
+                            <ul class="list-unstyled">
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >About Us</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >Vetting Process</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >How It Works</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">About</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">Vetting Process</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">How It Works</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Hire a Talent</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">Vetting Process</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">How It Works</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Resources for Hiring Managers</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">Vetting Process</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">How It Works</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Apply as a Talent</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">Vetting Process</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">How It Works</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 mt-4">
+                <div class="accordion accordion-flush" id="accordionFooterTwo">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="accordionFooterTwo-1">
+                      <button
+                        class="accordion-button collapsed d-flex justify-content-between"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#accordionFooterTwo-collapse-1"
+                        aria-expanded="false"
+                        aria-controls="accordionFooterTwo-collapse-1"
+                      >
+                        More Services
+                        <i class="fas fa-chevron-down text-white"></i>
+                      </button>
+                    </h2>
+                    <div
+                      id="accordionFooterTwo-collapse-1"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="accordionFooterTwo-1"
+                      data-bs-parent="#accordionFooterTwo"
+                    >
+                      <div class="accordion-body px-0">
+                        <div class="row">
+                          <div class="col-12 col-sm-6">
+                            <p class="text-white fs-5">About</p>
+                            <ul class="list-unstyled">
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >About Us</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >Vetting Process</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >How It Works</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-12 col-sm-6">
+                            <p class="text-white fs-5">Hire a Talent</p>
+                            <ul class="list-unstyled">
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >About Us</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >Vetting Process</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#" class="text-decoration-none"
+                                  >How It Works</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

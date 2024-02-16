@@ -28,16 +28,23 @@ header ul.dropdown-menu {
   box-shadow: 0px 0px 3px #cdcdcd;
 }
 
-.dropdown-submenu {
+header .dropdown-submenu {
   position: relative;
 }
 
-.dropdown-submenu .dropdown-menu {
+header .dropdown-submenu .dropdown-menu {
   top: 10%;
   left: 100%;
   margin-top: -1px;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+header .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
+}
+
+header .dropdown-item:focus,
+.dropdown-item:hover {
+  color: #07c4e4;
+  background-color: transparent;
+  text-decoration: underline;
 }
