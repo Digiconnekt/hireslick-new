@@ -1,0 +1,108 @@
+section.hero-section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+section.hero-section h1.hero-heading {
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.hero-section p.secondary-heading {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.hero-section form {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #474747;
+}
+
+section.hero-section form input {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+  color: #000000;
+}
+
+section.hero-section form input:focus {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+section.hero-section form input::placeholder,
+section.hero-section form i {
+  color: #474747;
+}
+
+section.faqs-section ul.main-tabs li a,
+section.faqs-section ul.main-tabs li img {
+  opacity: 0.7;
+  transition: all 0.25s ease;
+}
+
+section.faqs-section ul.main-tabs li:hover a,
+section.faqs-section ul.main-tabs li:hover img {
+  opacity: 1;
+}
+
+section.faqs-section ul.main-tabs li a.active,
+section.faqs-section ul.main-tabs li a.active img {
+  opacity: 1;
+}
+
+section.faqs-section ul.main-tabs li a {
+  color: #474747;
+}
+
+section.faqs-section ul.main-tabs li:hover a,
+section.faqs-section ul.main-tabs li a.active {
+  color: #07c4e4;
+  font-weight: bold;
+  transition: all 0.25s ease;
+}
+
+section.faqs-section button.accordion-button.collapsed {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: none;
+}
+
+section.faqs-section button.accordion-button {
+  background-color: #07c4e4;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.25rem #07c4e4;
+}
+
+section.our-latest-blogs-section .our-resources-card .bottom p,
+section.our-latest-blogs-section .our-resources-card .bottom span {
+  font-size: 12px;
+  color: #808080;
+}
+
+section.our-latest-blogs-section .img-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover .img-block img {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card p.title {
+  color: #808080;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover p.title {
+  color: #000000;
+}
