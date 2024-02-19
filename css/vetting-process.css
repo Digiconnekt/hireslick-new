@@ -17,3 +17,18 @@ section.hero-section p.secondary-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+section.how-vetting-help-hiring-section .border-start {
+  border-color: #07c4e4 !important;
+  border-width: 3px;
+}
+
+section.how-vetting-help-growing-section .growing-card {
+  border-radius: 20px;
+}
+
+section.how-vetting-help-hiring-section .bordered-card {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #dbdbdb;
+}
