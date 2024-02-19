@@ -32,3 +32,29 @@ section.how-vetting-help-hiring-section .bordered-card {
   border-radius: 5px;
   box-shadow: 0px 0px 3px #dbdbdb;
 }
+
+section.our-latest-blogs-section .our-resources-card .bottom p,
+section.our-latest-blogs-section .our-resources-card .bottom span {
+  font-size: 12px;
+  color: #808080;
+}
+
+section.our-latest-blogs-section .img-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover .img-block img {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card p.title {
+  color: #808080;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover p.title {
+  color: #000000;
+}

@@ -102,3 +102,25 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+/* FORM START */
+.form-control {
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: #07c4e4;
+  box-shadow: 0 0 0 0.25rem #07c4e4;
+}
+
+.form-select {
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.form-select:focus {
+  border-color: #07c4e4;
+  box-shadow: 0 0 0 0.25rem #07c4e4;
+}
+/* FORM END */
