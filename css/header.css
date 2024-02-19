@@ -2,6 +2,14 @@ header {
   background-color: #07c4e4;
 }
 
+header.sticky {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 99999;
+  box-shadow: 2px 0px 5px #cdcdcd;
+}
+
 header a.navbar-brand {
   max-width: 55px;
 }
