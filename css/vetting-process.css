@@ -18,6 +18,17 @@ section.hero-section p.secondary-heading {
   margin-right: auto;
 }
 
+section.vetting-process-section .numbering {
+  width: 40px;
+  height: 40px;
+}
+
+section.vetting-process-section .process-block {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section.how-vetting-help-hiring-section .border-start {
   border-color: #07c4e4 !important;
   border-width: 3px;
@@ -31,6 +42,16 @@ section.how-vetting-help-hiring-section .bordered-card {
   border: 1px solid #dbdbdb;
   border-radius: 5px;
   box-shadow: 0px 0px 3px #dbdbdb;
+}
+
+section.how-vetting-help-growing-section .top-block p {
+  font-size: 15px;
+}
+
+section.how-vetting-help-growing-section .hireslick-border {
+  border: 1px solid #7d7d7d;
+  border-top: 0px;
+  padding: 10px;
 }
 
 section.our-latest-blogs-section .our-resources-card .bottom p,
