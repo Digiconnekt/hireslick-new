@@ -98,6 +98,14 @@
 }
 /* FONT WEIGHT END */
 
+.font-italic {
+  font-style: italic;
+}
+
+.rounded-md {
+  border-radius: 14px;
+}
+
 .section-spacing {
   margin-top: 100px;
   margin-bottom: 100px;

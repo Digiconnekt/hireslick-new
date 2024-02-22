@@ -1,6 +1,6 @@
 section.hero-section {
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 80px;
 }
 
 section.hero-section h1.hero-heading {
@@ -9,8 +9,92 @@ section.hero-section h1.hero-heading {
   font-size: 40px;
 }
 
-section.hero-section p.secondary-heading {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+section.hero-section .bottom-blocks {
+  position: absolute;
+  bottom: -80px;
+  left: 0px;
+  right: 0px;
+  z-index: 999999;
+}
+
+section.hero-section .bottom-blocks .bottom-blocks-card {
+  box-shadow: 0px 0px 15px #d7d7d7;
+}
+
+section.match-making-section img.yt-icon {
+  width: 70px;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  z-index: 99;
+}
+
+section.match-making-section .yt-video a:hover img.yt-icon {
+  transform: scale(1.1);
+  transition: all 0.35s ease;
+}
+
+section.hiring-indian-talent-section .process-box:not(:last-child) {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+section.hiring-indian-talent-section .process-box:not(:last-child):before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 147px;
+  left: 70px;
+  height: 47%;
+  width: 2px;
+  background: #07c4e4;
+}
+section.hiring-indian-talent-section .process-box .process-img {
+  position: absolute;
+  max-width: 90%;
+}
+section.hiring-indian-talent-section .process-box .process-step {
+  padding-left: 175px;
+}
+
+section.our-latest-blogs-section .our-resources-card .bottom p,
+section.our-latest-blogs-section .our-resources-card .bottom span {
+  font-size: 12px;
+  color: #808080;
+}
+
+section.our-latest-blogs-section .img-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover .img-block img {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card p.title {
+  color: #808080;
+  transition: all 0.25s ease;
+}
+
+section.our-latest-blogs-section a.our-resources-card:hover p.title {
+  color: #000000;
+}
+
+@media (max-width: 1200px) {
+  section.hero-section .bottom-blocks {
+    position: absolute;
+    bottom: -150px;
+  }
+
+  section.match-making-section {
+    padding-top: 100px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  section.hero-section .bottom-blocks {
+    position: static;
+  }
 }
