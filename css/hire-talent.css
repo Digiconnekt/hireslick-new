@@ -1,0 +1,158 @@
+section.hero-section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+section.hero-section h1.hero-heading {
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.browse-candidates-by-category-section a.category-card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #e5e5e5;
+}
+
+section.browse-candidates-by-category-section a.category-card:hover {
+  background-color: #94edfc;
+  box-shadow: none;
+  transition: all 0.25s ease;
+}
+
+section.hireslick-advantage-section p.text-small {
+  font-size: 12px;
+}
+
+section.hireslick-advantage-section .right-girl-block {
+  position: absolute;
+  right: 0px;
+  bottom: -200px;
+  z-index: 9999;
+}
+
+section.hireslick-advantage-section .right-girl-block .block {
+  position: absolute;
+  top: 30%;
+  z-index: 99999;
+}
+
+section.how-to-hire-through-hireslick-section {
+  margin-top: 170px;
+}
+
+section.how-to-hire-through-hireslick-section .border-card {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #e1e1e1;
+}
+
+section.how-to-hire-through-hireslick-section .border-card p.step-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+section.how-to-hire-through-hireslick-section .steps-block {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -30px;
+  left: -10px;
+}
+
+section.faq-section {
+  background-color: #fafafa;
+}
+
+section.faq-section .accordion-item {
+  box-shadow: 0px 0px 5px #e2e2e2;
+}
+
+section.faq-section .accordion-item button {
+  box-shadow: none;
+  background-color: white;
+  font-weight: bold;
+  border-bottom: 0px;
+  color: #07c4e4;
+}
+
+section.faq-section .accordion-item button.collapsed {
+  color: #4e4e4e;
+}
+
+section.recently-added-candidates-section .candidate-card {
+  border-radius: 7px !important;
+  border-color: #f5f5f5 !important;
+  box-shadow: 0px 0px 25px #ededed !important;
+}
+
+section.recently-added-candidates-section .candidate-card:hover {
+  background-color: #e4fbff;
+  box-shadow: none;
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+section.recently-added-candidates-section .candidate-card .profile-img-block {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #e3e3e3;
+}
+
+section.recently-added-candidates-section .candidate-card .profile-img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section.recently-added-candidates-section .candidate-card .skills-block {
+  border: 1px solid #07c4e4;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #07c4e4;
+}
+
+section.recently-added-candidates-section .candidate-card .card-name {
+  font-size: 18px;
+}
+
+section.recently-added-candidates-section .candidate-card .card-designation {
+  font-size: 14px;
+}
+
+section.recently-added-candidates-section .candidate-card .card-bio {
+  font-size: 14px;
+}
+
+section.recently-added-candidates-section .candidate-card .card-location,
+section.recently-added-candidates-section .candidate-card .card-exp {
+  font-size: 12px;
+}
+
+section.recently-added-candidates-section .candidate-card .verify-tick {
+  left: 6px;
+  top: 6px;
+  font-size: 8px;
+}
+
+section.recently-added-candidates-section
+  .candidate-card
+  .verify-tick-position {
+  bottom: -7px;
+  right: 0px;
+}
+
+section.recently-added-candidates-section .swiper {
+  padding-bottom: 40px;
+}
+
+section.recently-added-candidates-section .swiper-pagination-bullet-active {
+  background-color: #07c4e4;
+}
