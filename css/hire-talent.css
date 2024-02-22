@@ -156,3 +156,9 @@ section.recently-added-candidates-section .swiper {
 section.recently-added-candidates-section .swiper-pagination-bullet-active {
   background-color: #07c4e4;
 }
+
+@media (max-width: 991px) {
+  section.hireslick-advantage-section .right-girl-block {
+    position: static;
+  }
+}
