@@ -52,9 +52,30 @@ section.hiring-indian-talent-section .process-box .process-img {
   position: absolute;
   max-width: 90%;
 }
+
 section.hiring-indian-talent-section .process-box .process-step {
   padding-left: 175px;
 }
+
+/*  */
+section.hiring-indian-talent-section .steps-container {
+  position: relative;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #07c4e4;
+}
+
+section.hiring-indian-talent-section .steps-container li::before {
+  position: absolute;
+  left: -8px;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: #07c4e4;
+  border-radius: 50%;
+}
+/*  */
 
 section.our-latest-blogs-section .our-resources-card .bottom p,
 section.our-latest-blogs-section .our-resources-card .bottom span {
