@@ -17,3 +17,73 @@ section.hero-section p.secondary-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+section.blogs-section .our-resources-card .bottom p,
+section.blogs-section .our-resources-card .bottom span {
+  font-size: 12px;
+  color: #808080;
+}
+
+section.blogs-section .img-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section.blogs-section a.our-resources-card:hover .img-block img {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.25s ease;
+}
+
+section.blogs-section a.our-resources-card p.title {
+  color: #808080;
+  transition: all 0.25s ease;
+}
+
+section.blogs-section a.our-resources-card:hover p.title {
+  color: #000000;
+}
+
+section.blogs-section ul li a .icon-block {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #eeeeee;
+}
+
+section.blogs-section ul li a {
+  color: #000000;
+}
+
+section.blogs-section ul li a:hover {
+  color: #07c4e4;
+  transition: all 0.25s ease;
+}
+
+section.blogs-section ul li a .icon-block i.fa-facebook-f {
+  color: #3b5998;
+}
+section.blogs-section ul li a .icon-block i.fa-instagram {
+  color: #cd486b;
+}
+section.blogs-section ul li a .icon-block i.fa-twitter {
+  color: #1da1f2;
+}
+
+section.blogs-section ul li a .blog-img-block {
+  width: 100px;
+  height: 80px;
+}
+
+section.blogs-section ul li a .blog-img-block img {
+  object-fit: cover;
+}
+
+section.blogs-section ul li a p.blog-heading {
+  font-size: 14px;
+}
+
+section.blogs-section ul li a .bottom p,
+section.blogs-section ul li a .bottom span {
+  font-size: 10px;
+  color: #808080;
+}
