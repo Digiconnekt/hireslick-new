@@ -142,6 +142,25 @@ section.our-resources-section .our-resources-card .bottom span {
   color: #c5c5c5;
 }
 
+section.our-resources-section .img-block {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section.our-resources-section a.our-resources-card:hover .img-block img {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.25s ease;
+}
+
+section.our-resources-section a.our-resources-card p.title {
+  color: #c7c7c7;
+}
+
+section.our-resources-section a.our-resources-card:hover p.title {
+  color: #ffffff;
+}
+
 section.choose-how-interact-section .choose-how-interact-card img {
   max-width: 300px;
 }
@@ -151,7 +170,7 @@ section.choose-how-interact-section .choose-how-interact-card img.interact_two {
 }
 
 section.choose-how-interact-section .choose-how-interact-card p.text-content {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 380px;
   margin-left: auto;
   margin-right: auto;
