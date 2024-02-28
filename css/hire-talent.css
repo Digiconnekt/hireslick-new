@@ -12,8 +12,19 @@ section.hero-section h1.hero-heading {
   margin-right: auto;
 }
 
+section.browse-candidates-by-category-section .category-card-parent {
+  overflow-x: scroll;
+}
+
 section.browse-candidates-by-category-section a.category-card {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border-radius: 10px;
+  color: #000000;
   box-shadow: 0px 0px 5px #e5e5e5;
 }
 
