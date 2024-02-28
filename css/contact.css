@@ -1,0 +1,89 @@
+section.hero-section {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+section.hero-section h1.hero-heading {
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-details-section .block {
+  border: 1px solid #dddddd;
+  box-shadow: 0px 0px 3px #dddddd;
+  border-radius: 5px;
+}
+
+.contact-details-section .block h2 {
+  color: #000000;
+}
+
+.contact-section .contact-block {
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section .contact-block .get-in-touch-block {
+  color: #ffffff;
+  background-color: #07c4e4;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #07c4e4;
+}
+
+.contact-section .contact-block .get-in-touch-block a,
+.contact-section .contact-block .get-in-touch-block a i {
+  color: #ffffff;
+  transition: all 0.25s ease;
+}
+
+.contact-section .contact-block .get-in-touch-block a:hover,
+.contact-section .contact-block .get-in-touch-block a:hover i {
+  color: #e2e2e2;
+  transition: all 0.25s ease;
+}
+
+.border-blue {
+  width: 100px;
+  height: 3px;
+  background-color: #07c4e4;
+}
+
+.contact-details-section .block h5 {
+  font-weight: 600;
+  color: #8d8ea3;
+}
+
+.contact-details-section .block p {
+  color: #8d8ea3;
+}
+
+.contact-details-section .block p a {
+  color: #000000;
+}
+
+.contact-details-section .block p a:hover {
+  color: #07c4e4;
+  transition: all 0.2s linear;
+}
+
+.contact-details-section .mail-block a {
+  display: block;
+  max-width: 450px;
+  border: 2px solid #07c4e4;
+  color: #000000;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px #e9f3ff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-details-section .mail-block a:hover {
+  box-shadow: none;
+  background-color: #07c4e4;
+  color: #fff;
+  transition: 0.25s ease all;
+}
