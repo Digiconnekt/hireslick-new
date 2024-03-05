@@ -37,6 +37,10 @@ section.how-vetting-help-hiring-section .border-start {
 section.how-vetting-help-growing-section .growing-card {
   border-radius: 20px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 section.how-vetting-help-hiring-section .bordered-card {
