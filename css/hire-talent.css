@@ -130,12 +130,20 @@ section.recently-added-candidates-section .candidate-card .skills-block {
   background-color: #07c4e4;
 }
 
+section.recently-added-candidates-section .candidate-card .btn-view-profile {
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 section.recently-added-candidates-section .candidate-card .card-name {
   font-size: 18px;
 }
 
 section.recently-added-candidates-section .candidate-card .card-designation {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 section.recently-added-candidates-section .candidate-card .card-bio {
