@@ -1,3 +1,38 @@
+.header-social-media-icons-section {
+  border-bottom: 1px solid #5cb5c4;
+}
+
+.header-social-media-icons-section a.btn {
+  padding: 5px 20px;
+  font-size: 13px;
+}
+
+.header-social-media-icons-section ul.social-media-icons-block li i {
+  color: #000000;
+}
+
+.header-social-media-icons-section
+  ul.social-media-icons-block
+  li
+  i.fa-whatsapp {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.social-media-icons-fixed {
+  z-index: 99999;
+}
+
+.social-media-icons-fixed ul li i.fa-whatsapp {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.header-social-media-icons-section ul.social-media-icons-block li:hover i {
+  color: #ffffff;
+  transition: all 0.25s ease;
+}
+
 header {
   background-color: #07c4e4;
 }
