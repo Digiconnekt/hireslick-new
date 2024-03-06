@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hireslick</title>
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONTAWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="./css/global.css" />
+
+    <!-- HEADER CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
+
+    <!-- FOOTER CSS -->
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- CANDIDATE DETAIL PAGE CSS -->
+    <link rel="stylesheet" href="./css/candidate-detail.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <!-- TOP HEADER SOCIAL MEDIA ICONS START -->
+    <div
+      class="header-social-media-icons-section bg-c-primary py-3 d-none d-sm-block"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <ul
+              class="social-media-icons-block list-unstyled d-flex align-items-center mb-0"
+            >
+              <li class="me-3">
+                <a href="tel:+6587993124" target="_blank">
+                  <i class="fas fa-phone"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="mailto:sales@hireslick.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="https://wa.me/+918595334605" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 text-end">
+            <a href="./contact.html" class="btn btn-c-secondary-outline"
+              >Get In Touch</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TOP HEADER SOCIAL MEDIA ICONS END -->
+
+    <!-- BOTTOM FIXED SOCIAL MEDIA ICONS START -->
+    <div
+      class="social-media-icons-fixed position-fixed bottom-0 start-0 end-0 bg-c-green-dark py-2 d-sm-none"
+    >
+      <ul
+        class="list-unstyled d-flex align-items-center justify-content-around mb-0"
+      >
+        <li class="me-3">
+          <a href="tel:+6587993124" target="_blank">
+            <i class="fas fa-phone text-white"></i>
+          </a>
+        </li>
+        <li class="me-3">
+          <a href="mailto:sales@hireslick.com" target="_blank">
+            <i class="fas fa-envelope text-white"></i>
+          </a>
+        </li>
+        <li class="me-3">
+          <a href="https://wa.me/+918595334605" target="_blank">
+            <i class="fab fa-whatsapp text-white"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- BOTTOM FIXED SOCIAL MEDIA ICONS END -->
+
+    <header>
+      <nav class="navbar navbar-expand-xl bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img
+              src="./images/logo-black.png"
+              alt="Hireslick"
+              class="img-fluid"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar1"
+          >
+            <i class="fas fa-bars fs-4"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown me-3">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Why Hireslick</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./vetting-process.html"
+                      >Vetting Process</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./how-it-works.html"
+                      >How It Works</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a
+                  href="#"
+                  id="menu"
+                  data-bs-toggle="dropdown"
+                  class="nav-link dropdown-toggle"
+                  data-bs-display="static"
+                  >Hire Top Talent</a
+                >
+                <div class="menu-hover-border"></div>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item"
+                      href="./hire-artificial-intelligence.html"
+                      >Artificial Intelligence</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-machine-learning.html"
+                      >Machine Learning</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-cybersecurity.html"
+                      >Cybersecurity</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-data-science.html"
+                      >Data Science</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-blockchain.html"
+                      >BlockChain</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-devops.html"
+                      >DevOps</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-mobile-apps.html"
+                      >Mobile apps</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item"
+                      href="./hire-digital-marketing.html"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-it-staffing.html"
+                      >IT staffing</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item"
+                      href="./hire-remote-developers.html"
+                      >Remote Developers</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-python-developer.html"
+                      >Python Developer</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item"
+                      href="./hire-fullstack-developer.html"
+                      >Fullstack Developer</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-data-analyst.html"
+                      >Data Analyst</a
+                    >
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="./hire-system-analyst.html"
+                      >System Analyst</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-3">
+                <a href="./blogs.html" class="nav-link">Blogs</a>
+                <div class="menu-hover-border"></div>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+                <div class="menu-hover-border"></div>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn-c-secondary ms-xl-5 me-xl-3 my-2 my-xl-0 d-block"
+              >Hire a Talent</a
+            >
+            <a href="#" class="btn btn-c-secondary-outline d-block"
+              >Apply as a Talent</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- TOP PROFILE BANNER START -->
+    <section class="banner-section container mt-5 mb-4 border-bottom pb-2">
+      <div class="position-relative">
+        <img
+          src="https://hireslick.com/themes/classic/f-assets/beta/images/candidate-banner-1.jpg"
+          alt="candidate details"
+          class="banner-img"
+        />
+        <div class="position-absolute profile-img">
+          <img
+            src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1454"
+            alt="profile image"
+          />
+        </div>
+      </div>
+      <div class="details d-flex d-md-block flex-column-reverse">
+        <div class="float-block mb-3 ms-md-5">
+          <div
+            class="btn-salary d-inline-block fw-bold c-color-blue mb-3 mb-lg-0 d-block d-lg-inline-block"
+          >
+            Price -
+            <span class="fw-normal text-black">$10</span
+            ><span class="c-fs-14 fw-normal text-black">/hr</span>
+          </div>
+
+          <a href="#" target="_blank" class="ms-2">
+            <div class="btn btn-c-primary d-block d-lg-inline-block">
+              <i class="fas fa-file-download me-2 text-white"></i>
+              Download CV
+            </div>
+          </a>
+        </div>
+        <div class="">
+          <div class="d-flex align-items-center">
+            <h1 class="fs-4 color-c-primary fw-bold me-2">John Dev</h1>
+            <div class="position-relative">
+              <i class="fas fa-certificate color-c-primary"></i>
+              <i
+                class="fas fa-check position-absolute text-white verify-tick"
+              ></i>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            reprehenderit ullam maxime excepturi officiis! Explicabo voluptatem
+            sapiente tempora excepturi repellendus?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- TOP PROFILE BANNER END -->
+
+    <!-- PROFILE DETAILS START -->
+    <section class="container details-section mb-5">
+      <div class="row align-items-start">
+        <div class="col-lg-8">
+          <div class="border p-4 mb-3 rounded-c-10">
+            <h4 class="color-c-primary border-bottom pb-3 mb-4 fw-bold">
+              <i class="fas fa-briefcase me-1 color-c-primary"></i>
+              Experiences
+            </h4>
+            <div class="px-3">
+              <ul class="experiences-container">
+                <li class="row mb-4">
+                  <div
+                    class="col-12 col-sm-6"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <h5 class="fw-500 color-c-primary">Software Developer</h5>
+                    <p class="mb-0 text-c-sm text-secondary">
+                      <i class="fas fa-building me-1 text-secondary"></i>
+                      Buildnetic
+                    </p>
+                  </div>
+                  <div
+                    class="col-12 col-sm-6"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    <p class="text-sm-end text-secondary text-c-sm">
+                      <i class="fas fa-calendar-alt me-1 text-secondary"></i>
+                      28 Feb, 2022 - 02 Sep, 2023
+                      <br class="d-none sm:d-block d-md-none" />
+                    </p>
+                  </div>
+                  <div
+                    class="col-12 mt-3"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <p class="text-black">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque exercitationem, doloribus animi nihil unde sapiente
+                      laborum ratione commodi ipsum omnis asperiores? Cupiditate
+                      amet cumque dicta molestias nemo tempore obcaecati
+                      aperiam?
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border p-4 mb-3 rounded-c-10">
+            <h4 class="color-c-primary border-bottom pb-3 mb-4 fw-bold">
+              <i class="fas fa-user-graduate me-1 color-c-primary"></i>
+              Education
+            </h4>
+            <div class="px-3">
+              <ul class="experiences-container">
+                <li class="row mb-4">
+                  <div
+                    class="col-12 col-sm-6"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <h5 class="fw-500 color-c-primary">Computer Engineering</h5>
+                    <p class="mb-0 text-c-sm text-secondary">
+                      <i class="fas fa-building me-1 text-secondary"></i>
+                      University Of Mumbai
+                    </p>
+                  </div>
+                  <div
+                    class="col-12 col-sm-6"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    <p class="text-sm-end text-secondary text-c-sm">
+                      <i class="fas fa-calendar-alt me-1 text-secondary"></i>
+                      28 Feb, 2022 - 02 Sep, 2023
+                      <br class="d-none sm:d-block d-md-none" />
+                    </p>
+                  </div>
+                  <div
+                    class="col-12 mt-3"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    <p class="text-black">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Itaque exercitationem, doloribus animi nihil unde sapiente
+                      laborum ratione commodi ipsum omnis asperiores? Cupiditate
+                      amet cumque dicta molestias nemo tempore obcaecati
+                      aperiam?
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border p-4 mb-3 rounded-c-10">
+            <h4 class="color-c-primary border-bottom pb-3 mb-4 fw-bold">
+              <i class="fas fa-tasks me-1 color-c-primary"></i> Skills
+            </h4>
+            <div class="px-3">
+              <span class="badge fw-normal skills-block me-3 mb-2"> HTML</span>
+            </div>
+          </div>
+
+          <div class="border p-4 mb-3 rounded-c-10">
+            <h4 class="color-c-primary border-bottom pb-3 mb-4 fw-bold">
+              <i class="fas fa-language me-1 color-c-primary"></i> Languages
+            </h4>
+            <div class="px-3">
+              <span class="badge fw-normal skills-block me-3 mb-2">
+                English
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-5 mt-lg-0 position-sticky" style="top: 20px">
+          <div class="border p-4 rounded-c-10">
+            <h4 class="color-c-primary border-bottom pb-3 mb-4">
+              <i class="fab fa-searchengin me-1 color-c-primary"></i> Screening
+              Details
+            </h4>
+
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Skill</th>
+                    <th scope="col" class="text-right">Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <i class="fa-brands fa-html5 me-1"></i>
+                      HTML
+                    </td>
+                    <td class="text-right">8/10</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <p>
+                <span class="fw-bold c-color-blue c-fs-17">Result -</span> Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Ea, impedit!
+              </p>
+
+              <a href="#" class="btn btn-c-primary w-100 my-2"
+                ><i class="fa-solid fa-video me-1 text-white"></i> Watch
+                Interview</a
+              >
+
+              <p class="mt-3 mb-1">
+                <span class="fw-bold c-color-blue c-fs-17">Interviewer -</span>
+              </p>
+              <div class="candidate-card border p-4 h-100">
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <div>
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="profile-img-block">
+                        <img
+                          src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1454"
+                          alt="profile image"
+                          class="profile-img"
+                        />
+                      </div>
+                      <div style="flex: 1">
+                        <a
+                          href="#"
+                          class="fw-bold d-block text-decoration-none color-c-primary"
+                          >John Dev</a
+                        >
+                        <p class="text-c-sm text-secondary">Interviewer</p>
+                      </div>
+                    </div>
+                    <p class="my-2 text-c-sm">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Mollitia, tempora.
+                    </p>
+
+                    <span class="badge fw-normal mt-1 skills-block">HTML</span>
+                    <span class="badge fw-normal mt-1 skills-block"
+                      >JavaScript</span
+                    >
+                  </div>
+
+                  <div class="border-top mt-3 pt-3">
+                    <div class="row">
+                      <div class="col-7">
+                        <p class="mb-0 text-c-sm text-secondary">
+                          <i class="fas fa-map-marker-alt text-secondary"></i>
+                          Mumbai
+                        </p>
+                      </div>
+                      <div class="col-5 text-end">
+                        <p class="mb-0 text-c-sm text-secondary">
+                          <i class="fas fa-briefcase text-secondary"></i> 5
+                          Years
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="">Candidate not rated</div> -->
+
+            <!-- <div
+              class="d-flex flex-column gap-2 justify-content-center align-items-center border p-4 c-bg-blue-light"
+              style="border-radius: 10px"
+            >
+              <div>
+                <i class="fa-solid fa-lock fs-3 color-c-primary"></i>
+              </div>
+              <p class="mt-2 mb-0 text-center">
+                Screening Details are locked <br />
+                to unlock please Login
+              </p>
+              <a href="#" class="mt-2 w-100 btn btn-c-primary"
+                ><i class="fa-solid fa-right-to-bracket me-1 text-white"></i>
+                Login</a
+              >
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROFILE DETAILS END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="container-fluid bg-c-secondary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <a href="/" class="d-block logo-block mb-3">
+              <img
+                src="./images/logo-white.png"
+                alt="Hireslick"
+                class="img-fluid"
+              />
+            </a>
+            <img
+              src="./images/home/footer-map.svg"
+              alt="map"
+              class="img-fluid"
+            />
+
+            <div
+              class="mt-4 d-flex flex-column flex-sm-row align-items-center contact-block"
+            >
+              <a href="tel:+6587993124" class="text-decoration-none number"
+                >+65 8799 3124</a
+              >
+              <span class="color-c-primary mx-3 d-none d-sm-block">|</span>
+
+              <a
+                href="mailto:sales@hireslick.com"
+                class="text-decoration-none email"
+                >sales@hireslick.com</a
+              >
+            </div>
+
+            <ul
+              class="social-media-icons-block list-unstyled d-flex align-items-center mt-2"
+            >
+              <li class="me-3">
+                <a href="https://www.facebook.com/hireslick" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a
+                  href="https://www.linkedin.com/company/hireslick/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="me-3">
+                <a href="https://www.instagram.com/hireslick/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+
+            <p class="mb-0 text-secondary copyright mt-2">
+              Copyright &copy; India rights @ Arunarcis Solutions Pvt Ltd,
+              Singapore rights @ Macaire Solutions Pte Ltd.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 mt-lg-0 right-block">
+            <div class="row">
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Quick Links</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="/" class="text-decoration-none">Home</a>
+                  </li>
+                  <li>
+                    <a href="./blogs.html" class="text-decoration-none"
+                      >Blogs</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./contact.html" class="text-decoration-none"
+                      >Contact</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./faqs.html" class="text-decoration-none">FAQs</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Why Hireslick</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="./vetting-process.html"
+                      class="text-decoration-none"
+                      >Vetting Process</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./how-it-works.html" class="text-decoration-none"
+                      >How It Works</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Hire Top Talent</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="./hire-artificial-intelligence.html"
+                      class="text-decoration-none"
+                      >Artificial Intelligence</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-machine-learning.html"
+                      class="text-decoration-none"
+                      >Machine Learning</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-cybersecurity.html"
+                      class="text-decoration-none"
+                      >Cybersecurity</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-data-science.html"
+                      class="text-decoration-none"
+                      >Data Science</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-blockchain.html"
+                      class="text-decoration-none"
+                      >Blockchain</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./hire-devops.html" class="text-decoration-none"
+                      >DevOps</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-mobile-apps.html"
+                      class="text-decoration-none"
+                      >Mobile Apps</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-digital-marketing.html"
+                      class="text-decoration-none"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-it-staffing.html"
+                      class="text-decoration-none"
+                      >IT Staffing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-remote-developers.html"
+                      class="text-decoration-none"
+                      >Remote Developers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-python-developer.html"
+                      class="text-decoration-none"
+                      >Python Developer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-fullstack-developer.html"
+                      class="text-decoration-none"
+                      >Fullstack Developer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-data-analyst.html"
+                      class="text-decoration-none"
+                      >Data Analyst</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./hire-system-analyst.html"
+                      class="text-decoration-none"
+                      >System Analyst</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 mt-4">
+                <p class="text-white fs-5">Other Links</p>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="./privacy-policy.html" class="text-decoration-none"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./pricing.html" class="text-decoration-none"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- STICKY HEADER JS -->
+    <script src="./js/sticky-header.js"></script>
+  </body>
+</html>
