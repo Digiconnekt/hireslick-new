@@ -172,6 +172,10 @@ section.recently-added-candidates-section .swiper {
   padding-bottom: 40px;
 }
 
+section.recently-added-candidates-section .swiper .swiper-slide {
+  height: auto;
+}
+
 section.recently-added-candidates-section .swiper-pagination-bullet-active {
   background-color: #07c4e4;
 }
