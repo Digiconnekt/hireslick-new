@@ -307,7 +307,11 @@
             </div>
           </div>
           <div class="col-12 col-lg-5 yt-video position-relative mt-5 mt-lg-0">
-            <a href="https://youtube.com" target="_blank">
+            <div
+              class="video-block"
+              data-bs-toggle="modal"
+              data-bs-target="#candidateFormModal"
+            >
               <figure class="position-relative">
                 <img
                   src="./images/home/hero-yt-img.png"
@@ -321,29 +325,35 @@
                   class="yt-icon position-absolute"
                 />
               </figure>
-            </a>
-
-            <!-- <div class="d-none d-lg-block">
-              <img
-                src="./images/home/banner-paperduck.svg"
-                alt="paperduck"
-                class="position-absolute banner-paperduck img-fluid"
-              />
-              <img
-                src="./images/home/banner-right-paperplane.svg"
-                alt="banner-right-paperplane"
-                class="position-absolute banner-right-paperplane img-fluid"
-              />
-              <img
-                src="./images/home/banner-left-paperplane.svg"
-                alt="banner-left-paperplane"
-                class="position-absolute banner-left-paperplane img-fluid"
-              />
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- VIDEO MODAL START -->
+    <div
+      class="modal fade"
+      id="candidateFormModal"
+      tabindex="-1"
+      aria-labelledby="candidateFormModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <video
+              src="./images/home/hireslick-video.mp4"
+              class="w-100"
+              controls
+              autoplay
+              muted
+            ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- VIDEO MODAL END -->
     <!-- HERO SECTION END -->
 
     <!-- RECRUTER FROM TOP COMPANY SECTION START -->

@@ -33,11 +33,19 @@ section.hero-section img.yt-icon {
   z-index: 99;
 }
 
-section.hero-section .yt-video a:hover img.yt-img {
+section.hero-section .yt-video .video-block {
+  cursor: pointer;
+}
+
+.modal-dialog {
+  max-width: 1000px;
+}
+
+section.hero-section .yt-video .video-block:hover img.yt-img {
   opacity: 0.8;
   transition: all 0.35s ease;
 }
-section.hero-section .yt-video a:hover img.yt-icon {
+section.hero-section .yt-video .video-block:hover img.yt-icon {
   transform: scale(1.1);
   transition: all 0.35s ease;
 }
@@ -201,12 +209,20 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     right: 0px;
     max-width: 120px;
   }
+
+  .modal-dialog {
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 991px) {
   section.hero-section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .modal-dialog {
+    max-width: 600px;
   }
 }
 
@@ -219,6 +235,11 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
   section.hero-section h1.hero-heading {
     line-height: 48px;
   }
+
+  .modal-dialog {
+    max-width: 500px;
+    margin: 0.75rem auto;
+  }
 }
 
 @media (max-width: 650px) {
@@ -226,6 +247,10 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .modal-dialog {
+    max-width: 400px;
   }
 }
 
@@ -246,5 +271,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
   section.hero-section img.yt-icon {
     width: 50px;
     left: -25px;
+  }
+
+  .modal-dialog {
+    max-width: 350px;
   }
 }
