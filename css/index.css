@@ -222,6 +222,10 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
   flex: 3;
 }
 
+.form-check-input:checked {
+  background-color: #41bed1 !important;
+}
+
 .modal-dialog label {
   font-size: 12px;
   margin-bottom: 3px;
