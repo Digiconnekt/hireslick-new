@@ -128,6 +128,7 @@ section.recently-added-candidates-section .candidate-card .skills-block {
   color: #ffffff;
   font-size: 12px;
   background-color: #07c4e4;
+  text-wrap: wrap;
 }
 
 section.recently-added-candidates-section .candidate-card .btn-view-profile {
@@ -180,8 +181,64 @@ section.recently-added-candidates-section .swiper-pagination-bullet-active {
   background-color: #07c4e4;
 }
 
+.modal-dialog input::placeholder,
+.modal-dialog select {
+  font-size: 15px;
+}
+
+#candidateFormModal .modal-dialog {
+  max-width: 1000px;
+}
+
+#candidateFormModal .modal-dialog .modal-header {
+  border-color: #07c4e4;
+}
+
+#candidateFormModal .modal-dialog .modal-footer {
+  border: 0px;
+}
+
+#candidateFormModal .modal-dialog .modal-content {
+  background-color: #daf9ff;
+}
+
+#candidateFormModal .modal-dialog input,
+#candidateFormModal .modal-dialog select {
+  border-color: #41bed1;
+  background-color: transparent;
+}
+
+@media (max-width: 1199px) {
+  #candidateFormModal .modal-dialog {
+    max-width: 800px;
+  }
+}
+
 @media (max-width: 991px) {
   section.hireslick-advantage-section .right-girl-block {
     position: static;
+  }
+
+  #candidateFormModal .modal-dialog {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  #candidateFormModal .modal-dialog {
+    max-width: 500px;
+    margin: 0.75rem auto;
+  }
+}
+
+@media (max-width: 650px) {
+  #candidateFormModal .modal-dialog {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  #candidateFormModal .modal-dialog {
+    max-width: 350px;
   }
 }

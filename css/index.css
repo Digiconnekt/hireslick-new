@@ -37,10 +37,6 @@ section.hero-section .yt-video .video-block {
   cursor: pointer;
 }
 
-.modal-dialog {
-  max-width: 1000px;
-}
-
 section.hero-section .yt-video .video-block:hover img.yt-img {
   opacity: 0.8;
   transition: all 0.35s ease;
@@ -184,6 +180,58 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
   margin-right: auto;
 }
 
+#candidateFormModal .modal-dialog,
+#hireslickVideoModal .modal-dialog,
+#submitJdFormModal .modal-dialog {
+  max-width: 1000px;
+}
+
+#candidateFormModal .modal-dialog .modal-header,
+#submitJdFormModal .modal-dialog .modal-header,
+#applyTalentModal .modal-dialog .modal-header {
+  border-color: #07c4e4;
+}
+
+#candidateFormModal .modal-dialog .modal-footer,
+#submitJdFormModal .modal-dialog .modal-footer {
+  border: 0px;
+}
+
+#candidateFormModal .modal-dialog .modal-content,
+#submitJdFormModal .modal-dialog .modal-content,
+#applyTalentModal .modal-dialog .modal-content {
+  background-color: #daf9ff;
+}
+
+#candidateFormModal .modal-dialog input,
+#candidateFormModal .modal-dialog select,
+#submitJdFormModal .modal-dialog input,
+#submitJdFormModal .modal-dialog select,
+#submitJdFormModal .modal-dialog button.dropdown-toggle,
+#submitJdFormModal .modal-dialog textarea {
+  border-color: #41bed1;
+  background-color: transparent;
+}
+
+#candidateFormModal .modal-dialog select,
+#submitJdFormModal .modal-dialog select {
+  font-size: 14px;
+}
+
+#submitJdFormModal .modal-dialog .input-group input.mobile {
+  flex: 3;
+}
+
+.modal-dialog label {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.modal-dialog input::placeholder,
+.modal-dialog textarea::placeholder {
+  font-size: 15px;
+}
+
 @media (max-width: 1599px) {
   section.recruiter-top-company-section .absolute-img {
     display: none;
@@ -210,7 +258,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     max-width: 120px;
   }
 
-  .modal-dialog {
+  #candidateFormModal .modal-dialog,
+  #hireslickVideoModal .modal-dialog,
+  #submitJdFormModal .modal-dialog {
     max-width: 800px;
   }
 }
@@ -221,7 +271,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     padding-bottom: 60px;
   }
 
-  .modal-dialog {
+  #hireslickVideoModal .modal-dialog,
+  #candidateFormModal .modal-dialog,
+  #submitJdFormModal .modal-dialog {
     max-width: 600px;
   }
 }
@@ -236,7 +288,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     line-height: 48px;
   }
 
-  .modal-dialog {
+  #hireslickVideoModal .modal-dialog,
+  #candidateFormModal .modal-dialog,
+  #submitJdFormModal .modal-dialog {
     max-width: 500px;
     margin: 0.75rem auto;
   }
@@ -249,7 +303,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     margin-right: auto;
   }
 
-  .modal-dialog {
+  #hireslickVideoModal .modal-dialog,
+  #candidateFormModal .modal-dialog,
+  #submitJdFormModal .modal-dialog {
     max-width: 400px;
   }
 }
@@ -273,7 +329,9 @@ section.choose-how-interact-section .choose-how-interact-card p.text-content {
     left: -25px;
   }
 
-  .modal-dialog {
+  #hireslickVideoModal .modal-dialog,
+  #candidateFormModal .modal-dialog,
+  #submitJdFormModal .modal-dialog {
     max-width: 350px;
   }
 }
